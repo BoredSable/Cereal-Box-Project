@@ -1,0 +1,19 @@
+/* #0e4ea6
+#fcae10 */
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+#logo {
+    grid-column: 1/2;
+}
+
+#navigation {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
