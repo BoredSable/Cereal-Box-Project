@@ -1,19 +1,193 @@
 /* #0e4ea6
-#fcae10 */
+#fcae10
+#022a6c */
 
+body {
+    background-color:#0e4ea9;
+}
+
+/***************************************************************************************
+Header
+***************************************************************************************/
 header {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 1fr 5fr;
+    background-color: #022a6c;
+    font-family: "Archivo Black", sans-serif;
+    height: 80px;
 }
 
 #logo {
     grid-column: 1/2;
+    width: 80%;
+    height: 80%;
+    position: relative; left: 10%;
 }
 
+/***************************************************************************************
+Navigation
+***************************************************************************************/
 #navigation {
-    grid-column: 2/3;
+    grid-column: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #022a6c;
+    height: 80px;
+}
+
+.nav_link {
+    color: white;
+    text-decoration: none;
+    grid-row: 2/3;
+    font-size: 34px;
+    position: relative; top: 20%;
+}
+
+.nav_link:hover {
+    color: #fcae10;
+}
+
+#front {
+    grid-column: 1/2;
+}
+
+#back {
+    grid-column: 3/4;
+}
+
+#nutrition {
+    grid-column: 5/6;
+}
+
+#side {
+    grid-column: 7/8;
+}
+
+/***************************************************************************************
+Title Section
+***************************************************************************************/
+#title_section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: white;
+    font-size: 28px;
+    font-family: "Archivo Black", sans-serif;
+}
+
+#cheese_smile {
+    grid-column: 2/4;
+    justify-self: center;
+    align-self: center;
+    font-size: 40px;
+}
+
+#cheese {
+    align-self: center;
+}
+
+#smiles {
+    align-self: center;
+    color: #fcae10;
+}
+
+#since {
+    align-self: center;
+}
+
+#five {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    font-size: 120px;
+    color: white;
+    height: 1px
+}
+
+#pack {
+    grid-column: 4/5;
+    grid-row: 3/4;
+    color: white;
+}
+
+/***************************************************************************************
+Image Section
+***************************************************************************************/
+#image_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#cheese_logo {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    width: 900px;
+}
+
+#spoon_image {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    width: 250%;
+    position: relative; right: 600px; bottom: 200px;
+}
+
+/***************************************************************************************
+Bottom Section
+***************************************************************************************/
+#bottom_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#enlarged {
+    grid-column: 3/4;
+    color: white;
+    font-family: serif;
+    font-size: 28px;
+    position: relative; bottom: 520px; left: 1200px;
+}
+
+#yellow {
+    grid-row: 2/3;
+    background-color: #fcae10;
+    height: 700px;
+    position: relative; bottom: 240px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#original {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+    font-family: "Archivo Black", "sans-serif";
+    font-size: 120px;
+}
+
+#flavor {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: white;
+    font-family: "Archivo Black", "sans-serif";
+    font-size: 70px;
+    position: relative; bottom: 20px;
+}
+
+#checklist {
+    grid-column: 3/4;
+    grid-row: 1/6;
+    width: 600px;
+    position: relative; bottom: 140px;
 }
 
 
+
+
+
+
+/***************************************************************************************
+Footer
+***************************************************************************************/
