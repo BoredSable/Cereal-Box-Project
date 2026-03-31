@@ -1,6 +1,13 @@
-/* #0e4ea6
-#fcae10
-#022a6c */
+/*
+Author: Joshua Fuller
+Class: WDD 130
+Date: March 31, 2026
+Sources:
+https://www.w3schools.com/cssref/pr_background-image.php
+https://www.w3schools.com/howto/howto_css_hero_image.asp
+https://www.w3schools.com/cssref/pr_text_text-decoration.php
+https://www.w3schools.com/cssref/pr_background-position.php
+*/
 
 body {
     background-color:#0e4ea9;
@@ -184,10 +191,27 @@ Bottom Section
 }
 
 
-
-
-
-
 /***************************************************************************************
 Footer
 ***************************************************************************************/
+
+#footer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: white;
+    background-color: #022a6c;
+    font-size: 26px;
+}
+
+#copyright {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+#name {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+}

@@ -1,0 +1,72 @@
+/*
+Author: Joshua Fuller
+Class: WDD 130
+Date: March 31, 2026
+Sources:
+https://www.w3schools.com/cssref/pr_background-image.php
+https://www.w3schools.com/howto/howto_css_hero_image.asp
+https://www.w3schools.com/cssref/pr_text_text-decoration.php
+https://www.w3schools.com/cssref/pr_background-position.php
+*/
+
+body {
+    background-color:#0e4ea9;
+}
+
+/***************************************************************************************
+Header
+***************************************************************************************/
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr;
+    background-color: #022a6c;
+    font-family: "Archivo Black", sans-serif;
+    height: 80px;
+}
+
+#logo {
+    grid-column: 1/2;
+    width: 80%;
+    height: 80%;
+    position: relative; left: 10%;
+}
+
+/***************************************************************************************
+Navigation
+***************************************************************************************/
+#navigation {
+    grid-column: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #022a6c;
+    height: 80px;
+}
+
+.nav_link {
+    color: white;
+    text-decoration: none;
+    grid-row: 2/3;
+    font-size: 34px;
+    position: relative; top: 20%;
+}
+
+.nav_link:hover {
+    color: #fcae10;
+}
+
+#front {
+    grid-column: 1/2;
+}
+
+#back {
+    grid-column: 3/4;
+}
+
+#nutrition {
+    grid-column: 5/6;
+}
+
+#side {
+    grid-column: 7/8;
+}
