@@ -12,3 +12,4 @@ All image assets have been uploaded. This includes:
 CSS has been done by Junior Developers, I have made some adjustments to the text font. 
 New font: Arial Rounded MT Bold
 
+There are some random index.html files. They will be deleted.
