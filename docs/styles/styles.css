@@ -9,6 +9,8 @@ https://www.w3schools.com/cssref/pr_text_text-decoration.php
 https://www.w3schools.com/cssref/pr_background-position.php
 */
 
+/* Claire- Ive found a font very simmilar to the packaging. Use font-family: "Arial Rounded MT Bold", "Arial Rounded MT", Arial, sans-serif; */
+
 body {
     background-color:#0e4ea9;
 }
@@ -82,6 +84,25 @@ Footer
     color: white;
     background-color: #022a6c;
     font-size: 26px;
+    font-family: "Arial Rounded MT Bold", "Arial Rounded MT", Arial, sans-serif;
+}
+
+#regular1 {
+    align-self: center;
+}
+
+#orangeyellowtext {
+    color: #fcae10;
+}
+
+#cheesysmiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: white;
+    background-color: #022a6c;
+    font-size: 26px;
+    font-family: "Arial Rounded MT Bold", "Arial Rounded MT", Arial, sans-serif;
 }
 
 #copyright {
